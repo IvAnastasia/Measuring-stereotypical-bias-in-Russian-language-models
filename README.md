@@ -1,3 +1,5 @@
+This repository contains the code for the course paper of Anastasia Ivanova (HSE University, Moscow).
+
 # Measuring-stereotypical-bias-in-Russian-language-models
 
 Large language models (LLMs) are the main tool in modern natural language processing, especially after the release of ChatGPT [OpenAI 2022] and GPT4 [OpenAI 2023]. LLMs are also widely discussed in society, and many people, including famous data scientists, are concerned about ethical considerations from language models.
@@ -13,4 +15,4 @@ To measure social bias in LLMs, an idea of contrastive model evaluation is widel
 The majority of existing bias detecting datasets are in English and represent American society stereotypes, so they can be used only for English language models evaluation. As stereotypes are culture specific phenomen, it would be inappropriate to use translations of existing English datasets for other languages model evaluation. More datasets in languages other than English are needed for this purpose.
 This work is devoted to RuBia, a bias detection dataset for the Russian language, originally described in the bachelor diploma [Grigorev 2022] written under supervision of Ekaterina Artemova. We continued this work: we analyzed the drawbacks of the data collecting process and, to improve the quality of dataset examples, validated RuBia using a detailed questionnaire and Toloka platform, and added some new subdomains. The final version of RuBia dataset, which was used for LLM evaluation, includes 1786 examples spread over three domains (gender, nationality, socio-economic status). Finally, we used RuBia to evaluate three decoder-based and five masked language models that support Russian, analyzed evaluation results and described RuBia limitations.
 
-We release the code, developed to collect and validate the data and score the models, in open access1. We also publish validated version of RuBia, validation instructions and questions2.
+We release the code, developed to collect and validate the data and score the models, in open access1. We also publish validated version of RuBia, validation instructions and questions.
